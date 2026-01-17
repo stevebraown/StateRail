@@ -1,0 +1,10 @@
+packages:
+  - apps/frontend
+  - apps/api
+  - packages/*
+
+ignoredBuiltDependencies:
+  - esbuild
+
+onlyBuiltDependencies:
+  - better-sqlite3

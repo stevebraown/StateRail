@@ -1,0 +1,28 @@
+{
+  "name": "@staterail/frontend",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "graphql-ws": "^5.16.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^4.5.0",
+    "@tanstack/react-query": "^5.45.0",
+    "reactflow": "^11.10.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.1.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.9.0",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0"
+  }
+}

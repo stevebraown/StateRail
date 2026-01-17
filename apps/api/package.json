@@ -1,0 +1,28 @@
+{
+  "name": "@staterail/api",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "graphql": "^16.9.0",
+    "graphql-yoga": "^5.7.0",
+    "nanoid": "^5.0.7",
+    "better-sqlite3": "^9.6.0",
+    "node-fetch": "^3.3.2",
+    "graphql-ws": "^5.16.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "tsx": "^4.19.0",
+    "eslint": "^9.9.0",
+    "@types/node": "^22.8.1",
+    "@types/better-sqlite3": "^7.6.9"
+  }
+}
